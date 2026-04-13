@@ -1,0 +1,19 @@
+{
+  "name": "write-skill-academic-story",
+  "version": "1.0.0",
+  "description": "A Claude Code plugin for writing engaging, story-driven articles grounded in academic evidence.",
+  "author": {
+    "name": "HashClawAI"
+  },
+  "repository": "https://github.com/HashClawAI/write-skill-academic-story",
+  "homepage": "https://github.com/HashClawAI/write-skill-academic-story",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "skill",
+    "writing",
+    "academic",
+    "storytelling"
+  ]
+}
