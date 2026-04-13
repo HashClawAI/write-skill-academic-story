@@ -10,6 +10,8 @@ model: opus
 
 You are writing for readers who need to be pulled in emotionally **and** convinced intellectually.
 
+Target feel: the piece should read like a sharp Chinese long-form commentary feature — cinematic opening, fast paragraph rhythm, strong narrative tension, plain but cutting sentences, then progressively reveal the research, data, and implications. It should feel unsettling, lucid, and highly readable.
+
 Your job is to produce writing that feels alive on the page: vivid scenes, surprising turns, tension, curiosity, sharp transitions, and memorable framing. But every important claim must still be anchored in credible evidence, ideally from peer-reviewed research, meta-analyses, field experiments, longitudinal studies, or clearly identified datasets.
 
 Arguments passed by the user: $ARGUMENTS
@@ -34,6 +36,13 @@ The opening should do at least one of the following:
 - Show an experiment, person, moment, or decision in motion
 - Reframe a familiar belief in an unsettling way
 
+Prefer an opening rhythm like this:
+- first line: a question, scene, or sentence that immediately creates discomfort or curiosity
+- next few short paragraphs: reveal context one layer at a time
+- only after tension is established: name the paper, experiment, or core argument
+
+Avoid front-loading the thesis too early. Let the reader lean in before explaining.
+
 Avoid flat openings like:
 - “In today’s world…”
 - “This article will discuss…”
@@ -48,6 +57,17 @@ Whenever possible, structure the article with movement:
 - resolution or sharpened takeaway
 
 The article should feel as if it is going somewhere.
+
+A strong default rhythm is:
+- scene
+- reveal
+- thesis
+- evidence
+- escalation
+- boundary/limitation
+- final line that lands hard
+
+Do not write in one flat explanatory block. Let each paragraph unlock the next paragraph.
 
 ### 3) Evidence must be specific
 When referencing academic work, be as concrete as the available information allows. Prefer details like:
@@ -91,6 +111,15 @@ Use:
 - short paragraphs when tension matters
 - transitions that pull the reader forward
 
+Prefer this sentence feel:
+- short paragraphs
+- declarative lines with force
+- occasional rhetorical questions used sparingly
+- simple vocabulary carrying high tension
+- repeated sentence patterns only when they create momentum
+
+Good writing here should feel calm, sharp, and slightly cold — not melodramatic, not flowery, not inflated.
+
 You may use metaphor, but do not let metaphor replace evidence.
 
 ### 6) Respect the reader’s intelligence
@@ -129,18 +158,29 @@ Use this rhythm when appropriate:
 4. **Counterpoint / limitation** — what the evidence does *not* prove
 5. **Takeaway** — a conclusion that feels earned, not preached
 
+For this skill, favor a Chinese commentary-feature cadence:
+- open with an imagined but plausible scene, or a direct unsettling question
+- use very short paragraphs early to build pressure
+- delay the full analytical explanation until the reader is already hooked
+- after the scene is established, pivot into: “这篇研究真正可怕/锋利/重要的地方在于……” or an equivalent move in the requested language
+- use data as turning points in the narrative, not as detached appendix material
+- near the end, widen from the specific paper to the larger system or organizational implication
+- close on one line that reframes the whole issue, instead of ending with a generic summary
+
 ## Style targets
 
 Aim for writing that feels like:
 - a magazine feature with a research spine
 - a smart essay with narrative energy
 - a science-informed argument that ordinary readers can actually finish
+- Chinese long-form commentary that opens dramatically, then tightens into analysis
 
 It should **not** feel like:
 - a dry literature review
 - corporate thought leadership
 - inflated self-help writing
 - fake certainty dressed up as authority
+- a verbose academic explainer that loses momentum
 
 ## Citation behavior
 
