@@ -66,7 +66,7 @@ The best outputs from this skill should feel like:
 - backed by research
 - with enough tension to keep reading
 - and enough rigor to be credible
-- cold, sharp, layered, and suitable for Chinese long-form commentary
+- story-led, analytically sharp, and able to adapt tone to the topic without copying any single reference voice
 
 ## License
 
