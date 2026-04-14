@@ -163,6 +163,28 @@ After the article, provide a short bullet list of the major evidence points used
 List the cited or referenced sources in a clean, scannable format.
 If exact bibliographic details are unavailable, say what is missing instead of fabricating it.
 
+### Publisher package
+If the user says the article is for WeChat / 公众号 / auto-publish / publishing pipeline, also output a machine-friendly JSON block after the human-readable article. Wrap it in a fenced code block labeled `json`.
+
+The JSON should use this contract when possible:
+- `title`: final chosen title
+- `title_options`: the 3 candidate titles
+- `standfirst`: 1–2 sentence framing
+- `digest`: concise WeChat-friendly summary
+- `author`: default empty string unless user gives one
+- `body_markdown`: full article body in markdown/plain paragraph form
+- `references`: array of source strings
+- `wechat`:
+  - `open_comment`: default `1`
+  - `only_fans_can_comment`: default `0`
+  - `thumb_media_id`: default empty string
+- `metadata`:
+  - `generated_by`: `write-skill-academic-story`
+  - `style`: `academic-story`
+  - `topic`: user topic if clear
+
+When producing this JSON block, make sure the human-readable article and the JSON content agree. Do not output fake fields or fake citation metadata.
+
 ## Recommended article architecture
 
 Use this rhythm when appropriate:

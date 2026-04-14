@@ -7,6 +7,7 @@ A Claude Code plugin that adds a writing skill for producing articles that are:
 - grounded in academic evidence
 - readable without becoming shallow
 - persuasive without pretending certainty
+- compatible with the `wechat-mp-auto-publish` pipeline
 
 ## What it does
 
@@ -21,35 +22,29 @@ The skill is designed for writing:
 - science-informed commentary
 - magazine-style longform
 - social or technology analysis with research support
+- WeChat public-account drafts that need both narrative force and source discipline
 
-Its core goal is simple:
+## Publishing-friendly mode
 
-> Write something people actually want to read, while still treating research honestly.
+If the user indicates the article is for:
 
-## Writing principles built into the skill
+- 微信公众号
+- WeChat publishing
+- auto publish
+- publishing pipeline
 
-The skill pushes Claude to:
+then the skill should output:
 
-1. open with a real hook
-2. build momentum like a story
-3. use studies, experiments, and datasets concretely
-4. mention limitations and mixed evidence
-5. avoid fake citations or overstated conclusions
+1. a human-readable article
+2. a machine-friendly JSON block for downstream automation
 
-## Repository structure
+That JSON block is designed to plug into:
 
-```text
-write-skill-academic-story/
-├── .claude-plugin/
-│   └── plugin.json
-└── skills/
-    └── article-writing-academic-story/
-        └── SKILL.md
-```
+- [HashClawAI/wechat-mp-auto-publish](https://github.com/HashClawAI/wechat-mp-auto-publish)
+
+via its `import-skill-output.mjs` bridge.
 
 ## Usage
-
-After making the plugin available in Claude Code, invoke:
 
 ```text
 /article-writing-academic-story <topic> [audience] [angle]
@@ -59,23 +54,9 @@ Examples:
 
 ```text
 /article-writing-academic-story 睡眠不足如何改变决策
-/article-writing-academic-story Why status anxiety shapes modern work general audience
 /article-writing-academic-story AI companions and emotional attachment magazine feature
+/article-writing-academic-story 为公众号写一篇关于 agentic misalignment 的文章
 ```
-
-## Notes on references
-
-This skill is designed to encourage academically grounded writing, but it should not fabricate citations.
-
-If you want exact, current, verifiable references, provide:
-
-- paper titles
-- links
-- abstracts
-- reading notes
-- or a source pack
-
-That gives the skill something concrete to work from.
 
 ## Ideal output style
 
@@ -85,6 +66,7 @@ The best outputs from this skill should feel like:
 - backed by research
 - with enough tension to keep reading
 - and enough rigor to be credible
+- cold, sharp, layered, and suitable for Chinese long-form commentary
 
 ## License
 
