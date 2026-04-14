@@ -68,6 +68,17 @@ The best outputs from this skill should feel like:
 - and enough rigor to be credible
 - story-led, analytically sharp, and able to adapt tone to the topic without copying any single reference voice
 
+## Recent refinements
+
+The latest version of this skill is tuned to:
+
+- open with a concrete, engaging scene instead of a summary paragraph
+- reveal the Agent or system-level finding naturally after tension is established
+- keep the prose vivid and readable without imitating any single benchmark article
+- stay compatible with the `wechat-mp-auto-publish` JSON handoff for real publishing flows
+
+A good use case is a paper-driven WeChat article that needs to be interesting, accurate, and publication-ready in the same pass.
+
 ## License
 
 MIT
